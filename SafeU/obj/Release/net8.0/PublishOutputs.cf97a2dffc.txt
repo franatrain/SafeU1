@@ -1,0 +1,7 @@
+C:\Users\franc\OneDrive\Desktop\AT\Safe U Visual S\newU\Safe-U\SafeU\obj\Release\net8.0\PubTmp\Out\SafeU.exe
+C:\Users\franc\OneDrive\Desktop\AT\Safe U Visual S\newU\Safe-U\SafeU\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\franc\OneDrive\Desktop\AT\Safe U Visual S\newU\Safe-U\SafeU\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\franc\OneDrive\Desktop\AT\Safe U Visual S\newU\Safe-U\SafeU\obj\Release\net8.0\PubTmp\Out\SafeU.dll
+C:\Users\franc\OneDrive\Desktop\AT\Safe U Visual S\newU\Safe-U\SafeU\obj\Release\net8.0\PubTmp\Out\SafeU.deps.json
+C:\Users\franc\OneDrive\Desktop\AT\Safe U Visual S\newU\Safe-U\SafeU\obj\Release\net8.0\PubTmp\Out\SafeU.runtimeconfig.json
+C:\Users\franc\OneDrive\Desktop\AT\Safe U Visual S\newU\Safe-U\SafeU\obj\Release\net8.0\PubTmp\Out\SafeU.pdb

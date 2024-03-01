@@ -1,0 +1,737 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.fondo1{
+    height: 100vh;
+    position: relative;
+}
+
+
+
+.video1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    }
+
+
+
+    .video2{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        display: none;
+       
+        }
+
+
+
+.contenedor{
+   /* background-color: red;*/
+    position: absolute;
+    top: 170px;
+    width: 100%;
+}
+
+.cont_botones{
+    position: absolute;
+   /* background-color: red;*/
+    width: 100%;
+    bottom: 150px;
+}
+
+
+.form{
+    
+    margin: auto;
+    width: 60%;
+    background-color: #0000001c;
+    background-color: #00000091;
+    color: white;
+    border-radius: 2em;
+    padding: 5px;
+    border-color: white;
+    border-style: solid;
+   /* display: none;*/
+   opacity: 0;
+   pointer-events: none;
+   position: relative;
+   z-index: 999;
+   
+  
+}
+
+@keyframes borderAnimation {
+    0% {
+      box-shadow: 0 0 2px springgreen;
+    }
+    25% {
+      box-shadow: 0 0 7px springgreen;
+    }
+    50% {
+      box-shadow: 0 0 15px springgreen;
+    }
+    75% {
+      box-shadow: 0 0 7px springgreen;
+    }
+    100% {
+      box-shadow: 0 0 2px springgreen;
+    }
+
+   
+  }
+  
+  .form {
+    border: 2px solid transparent;
+    animation:none;
+   
+  }
+
+
+  .titulo_form h1{
+    color: springgreen;
+	font-size: 40px;
+  
+
+      text-shadow: 0 0 5px #00ff7f8c, 0 0 20px rgba(0, 178, 255, 0), 0 0 40px rgba(38, 104, 127, 0.37), 0 0 80px rgba(38, 104, 127, 0.54), 0 0 90px rgba(38,104,127,1), 0 0 100px rgba(38, 104, 127, 0.62), 0 0 140px rgba(38, 104, 127, 0.59), 0 0 180px rgba(38,104,127,1);;
+
+
+  }
+.titulo_form{
+    position: relative;
+    text-align: center;
+}
+
+
+
+  .equis{
+    /*  background-color: red;*/
+      position: absolute;
+      right: 15px;
+      font-size: 25px;
+      border-radius: 2em;
+      top: 0px;
+      cursor: pointer;
+  }
+
+  .equis{
+    transition: all 0.40s;
+    color: springgreen;
+	
+	text-shadow:
+		0 0 5px rgba(0, 255, 128, 0.385),
+		0 0 10px rgba(0, 255, 128, 0.143),
+		0 0 10px rgba(0,178,255,1),
+		0 0 10px rgba(38,104,127,1),
+		0 0 30px rgba(38,104,127,1),
+		0 0 10px rgba(38,104,127,1),
+		0 0 10px rgba(38,104,127,1),
+		0 0 10px rgba(38,104,127,1),
+		0 0 10px rgba(38,104,127,1);
+  }
+
+
+
+
+
+
+
+.botones{
+
+/*background-color: blue;*/
+margin: auto;
+width: 80%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.redes a{
+    font-size: 50px;
+    float: right;
+}
+
+.redes{
+  
+   
+    display: flex;
+    
+    gap: 60px!important;
+}
+
+
+.neon, .red {
+	color: #fff;
+
+
+        text-shadow:
+		0 0 5px  #03FF9E,
+		0 0 10px  #03FF9E,
+		0 0 20px  #03FF9E,
+		0 0 40px  #03FF9E,
+		0 0 80px  #03FF9E,
+		0 0 90px  #03FF9E,
+		0 0 100px  #03FF9E,
+		0 0 140px  #03FF9E,
+		0 0 180px  #03FF9E;
+
+
+       
+}
+
+.TEXTO h2{
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+
+.boton a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border-color: white;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 20px 50px;
+ 
+    
+   
+    background-color: #03FF9E;
+    background-color: #03ff9ebd;
+  
+    box-shadow: rgb(3, 255, 158) 0px 0px 5px, rgb(3, 255, 158) 0px 0px 10px, rgb(3, 255, 158) 0px 0px 20px, rgb(3, 255, 158) 0px 0px 40px, rgb(3, 255, 158) 0px 0px 80px, rgb(3, 255, 158) 0px 0px 10px, rgb(3, 255, 158) 0px 0px 10px, rgb(3, 255, 158) 0px 0px 10px, rgb(3, 255, 158) 0px 0px 5px;
+
+
+
+
+
+
+
+    cursor: pointer;
+
+    
+}
+
+
+.cont_botones{
+    bottom: 11%;
+}
+
+
+.cont_botones_mobile{
+    display: none;
+}
+
+.form {
+    animation: none;
+    border-color: #01a66e;  
+    padding: 35px 10px;
+     background-color: #000000d6;
+}
+
+
+@media (max-width: 1400px){
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1124px){
+
+.contenedor{
+    top: 100px;
+}
+
+.boton a{
+    font-size: 20px;
+padding: 14px 36px;
+}
+
+.cont_botones{
+bottom: 18px;
+}
+
+
+.redes a{
+    font-size: 43px;
+}
+
+.form{
+    width: 74%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media (max-width: 1010px){
+
+
+.video1{
+    display: none;
+}
+
+.video2{
+    display: initial;
+    object-fit: cover;
+    
+}
+
+.cont_botones{
+    display: none!important;
+}
+
+
+.cont_botones_mobile{
+
+   display: initial!important;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+
+.TEXTO_mobile{
+    color: white;
+}
+
+.botones_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.redes_mobile{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.redes_mobile a{
+    font-size: 40px;
+}
+
+.boton_mobile a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    border-color: white;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 20px 30px;
+    
+    background-color: #06a3d7c4;
+    
+
+    background-color: #03FF9E;
+    background-color: #03ff9ebd;
+  
+    box-shadow: rgb(3, 255, 158) 0px 0px 5px, rgb(3, 255, 158) 0px 0px 10px, rgb(3, 255, 158) 0px 0px 20px, rgb(3, 255, 158) 0px 0px 40px, rgb(3, 255, 158) 0px 0px 80px, rgb(3, 255, 158) 0px 0px 10px, rgb(3, 255, 158) 0px 0px 10px, rgb(3, 255, 158) 0px 0px 10px, rgb(3, 255, 158) 0px 0px 5px;
+
+
+}
+
+
+.form{
+    padding-top: 40px;
+}
+
+
+.equis{
+    top: -40px;
+}
+
+
+.contenedor{
+   top: 20%;
+}
+
+.cont_botones_mobile{
+    bottom: 5%;
+}
+.form{
+    position: relative;
+    z-index: 999;
+    animation: none;
+}
+
+.form {
+    animation: none;
+    border-color: #01a66e;  
+    padding: 35px 10px;
+     background-color: #000000d6;
+}
+
+
+.equis{
+    text-shadow: none;
+}
+
+
+.titulo_form h1{
+    text-shadow: none;
+}
+
+
+
+
+
+
+        }
+
+
+
+      
+
+          .TEXTO{
+           /* background-color: red;*/
+            width: 20%;
+            position: relative;
+          }
+
+          .TEXTO img{
+            width: 100%;
+           
+          }
+
+          .oculto{
+            background-color: #0a0a16;
+            background-color: rgb(8 8 17);
+            height: 100px;
+            height: 49px;
+            position: absolute;
+            z-index: 999;
+            top: -4px;
+            width: 100%;
+            right: 0px;
+            animation: disminuir 2s infinite alternate;
+          }
+
+
+          @keyframes disminuir {
+            0% {
+              width: 100%; /* Al inicio, la anchura es del 100% */
+            }
+            100% {
+              width: 0%; /* Al final, la anchura es del 0%, lo que lo hace desaparecer */
+            }
+          }
+
+
+
+
+
+
+
+
+.TEXTO_mobile{
+  /*  background-color: red;*/
+    margin: auto;
+    width: 50%;
+    position: relative;
+}
+
+
+.TEXTO_mobile img{
+   
+   
+   
+    width: 100%;
+}
+
+          
+
+.oculto_mobile{
+    background-color: #0a0a16;
+    background-color: rgb(8 8 17);
+    background-color: rgb(10 13 33);
+  
+    height: 100px;
+    height: 49px;
+    position: absolute;
+    z-index: 999;
+    top: -4px;
+    width: 100%;
+    right: 0px;
+    animation: disminuir 2s infinite alternate;
+  }
+
+
+  @keyframes disminuir2 {
+    0% {
+      width: 100%; /* Al inicio, la anchura es del 100% */
+    }
+    100% {
+      width: 0%; /* Al final, la anchura es del 0%, lo que lo hace desaparecer */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px){
+
+.contenedor{
+    top: 100px;
+  
+}
+
+.boton_mobile a{
+    padding: 20px 50px;
+    font-size: 30px;
+   
+}
+
+.titulo_form h1{
+    text-shadow: none;
+}
+
+.equis{
+    text-shadow: none;
+}
+
+
+.form {
+    animation: none; 
+    border-color: #01a66e;  
+    padding: 35px 10px;
+     background-color: #000000d6;
+}
+
+
+.fondo1{
+    height: 145vh;
+    height: 100vh;
+    padding: 500px 0px;
+}
+
+.contenedor{
+    top: 250px;
+    top: 150px;
+}
+
+.titulo_form h1{
+   
+    font-size: 27px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+
+.form{
+    padding-top: 30px;
+    width: 90%;
+    z-index: 999;
+    position: relative;
+}
+
+.equis{
+    top: -40px;
+}
+
+.contenedor{
+    top: 100px;
+    top: 76px;
+    
+}
+
+.video2{
+    object-fit: fill;
+}
+
+
+}
+
+
+
+@media (max-width: 400px){
+
+.fondo1{
+    height: 145vh;
+    height: 100%;
+    padding: 500px 0px;
+    padding: 427px 0px;
+}
+
+.redes_mobile{
+    padding-bottom: 30px;
+}
+
+.titulo_form h1{
+    font-size: 35px;
+}
+
+}
+
+
+@media (max-width: 350px){
+
+.boton_mobile a{
+    padding: 20px 25px;
+    font-size: 25px;
+}
+
+
+.boton_mobile a {
+    padding: 20px 14px;
+    font-size: 19px;
+}
+
+
+.titulo_form h1 {
+    font-size: 26px;
+}
+
+}
+
+
+
