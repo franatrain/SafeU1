@@ -246,6 +246,29 @@ align-items: center;
     padding: 35px 10px;
      background-color: #000000d6;
 }
+.politicas{
+   
+  margin: auto;
+  width: 80%;
+   text-align: center;
+   padding-top: 20px;
+    
+}
+
+.politicas a, .politicas2 a{
+    color:#03FF9E;
+    
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.politicas2{
+    margin-top: -40px;
+}
+
+
 
 
 @media (max-width: 1400px){
